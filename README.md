@@ -99,7 +99,7 @@ Web Development:
 📂 Project Structure
 
 IPL-Predictor/
-│
+
 ├── app.py
 ├── eda.py
 ├── prepare_dataset.py
@@ -107,13 +107,13 @@ IPL-Predictor/
 ├── model_pipeline.pkl
 ├── deliveries.csv
 ├── requirements.txt
-│
+
 ├── screenshots/
 │   ├── home.png
 │   ├── players.png
 │   ├── insights.png
-│   ├── result.png
-│
+│   └── result.png
+
 ├── eda/
 │   ├── eda_1_score_distribution.png
 │   ├── eda_2_team_average_score.png
@@ -123,8 +123,8 @@ IPL-Predictor/
 │   ├── eda_6_run_rate_vs_score.png
 │   ├── eda_7_top_batters.png
 │   ├── eda_8_top_bowlers.png
-│   ├── eda_9_boundaries_by_team.png
-│
+│   └── eda_9_boundaries_by_team.png
+
 └── README.md
 
 ⚙️ Installation & Setup
