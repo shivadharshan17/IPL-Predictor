@@ -40,7 +40,7 @@ This helps derive:
 Models used:
 - Linear Regression
 - Random Forest
-- Gradient Boosting (Best Model)
+- Gradient Boosting 
 - Neural Network (MLP Regressor)
 
 Model Selection:
@@ -107,11 +107,13 @@ IPL-Predictor/
 ├── model_pipeline.pkl
 ├── deliveries.csv
 ├── requirements.txt
+│
 ├── screenshots/
 │   ├── home.png
 │   ├── players.png
 │   ├── insights.png
 │   ├── result.png
+│
 ├── eda/
 │   ├── eda_1_score_distribution.png
 │   ├── eda_2_team_average_score.png
@@ -122,6 +124,7 @@ IPL-Predictor/
 │   ├── eda_7_top_batters.png
 │   ├── eda_8_top_bowlers.png
 │   ├── eda_9_boundaries_by_team.png
+│
 └── README.md
 
 ⚙️ Installation & Setup
