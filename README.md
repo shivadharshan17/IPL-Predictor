@@ -98,6 +98,7 @@ Web Development:
 
 📂 Project Structure
 
+```text
 IPL-Predictor/
 
 ├── app.py
@@ -126,6 +127,7 @@ IPL-Predictor/
 │   └── eda_9_boundaries_by_team.png
 
 └── README.md
+```
 
 ⚙️ Installation & Setup
 
