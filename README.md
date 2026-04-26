@@ -112,6 +112,16 @@ IPL-Predictor/
 │   ├── players.png
 │   ├── insights.png
 │   ├── result.png
+├── eda/
+│   ├── eda_1_score_distribution.png
+│   ├── eda_2_team_average_score.png
+│   ├── eda_3_powerplay_runs.png
+│   ├── eda_4_death_overs_runs.png
+│   ├── eda_5_wickets_vs_score.png
+│   ├── eda_6_run_rate_vs_score.png
+│   ├── eda_7_top_batters.png
+│   ├── eda_8_top_bowlers.png
+│   ├── eda_9_boundaries_by_team.png
 └── README.md
 
 ⚙️ Installation & Setup
@@ -180,7 +190,7 @@ Below are the sample outputs of the IPL Score Prediction system.
 ![Powerplay](eda/eda_3_powerplay_runs.png)
 
 🔹 Death Overs Runs
-![Death Overs](eda/eda_4_death_over_runs.png)
+![Death Overs](eda/eda_4_death_overs_runs.png)
 
 🔹 Wickets vs Score
 ![Wickets vs Score](eda/eda_5_wickets_vs_score.png)
@@ -196,7 +206,6 @@ Below are the sample outputs of the IPL Score Prediction system.
 
 🔹 Boundaries by Team
 ![Boundaries](eda/eda_9_boundaries_by_team.png)
-
 
 📊 Key Features Used
 - Batting strength (strike rate)
