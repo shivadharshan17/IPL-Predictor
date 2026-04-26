@@ -8,6 +8,8 @@ The system allows users to select teams and players, view insights, and generate
 This project uses the IPL dataset from Kaggle:
 https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020?select=deliveries.csv
 
+IPL Complete Dataset (2008–2024)
+
 Dataset used:
 - deliveries.csv
 
@@ -131,33 +133,48 @@ IPL-Predictor/
 
 ⚙️ Installation & Setup
 
+Installation & Setup
+
 1. Clone repository
+```bash
 git clone https://github.com/shivadharshan17/IPL-Predictor.git
 cd IPL-Predictor
+```
 
 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3. Download dataset
-Download deliveries.csv from Kaggle and place it in project folder
+3. Download dataset  
+Download `deliveries.csv` from Kaggle and place it in the project folder.
+https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020?select=deliveries.csv
 
-4. Prepare dataset
+5. Prepare dataset
+```bash
 python prepare_dataset.py
-Creates: ipl_ml_dataset.csv
+```
+Creates: `ipl_ml_dataset.csv`
 
 5. Run EDA
+```bash
 python eda.py
+```
 
 6. Train model
+```bash
 python train_model.py
+```
 This will:
-- Train multiple models
-- Select best model
-- Apply tuning
-- Save model_pipeline.pkl
+- Train multiple models  
+- Select best model  
+- Apply tuning  
+- Save `model_pipeline.pkl`  
 
 7. Run application
+```bash
 python app.py
+```
 
 🖥️ How to Use
 - Select Team 1 and Team 2
