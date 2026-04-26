@@ -235,5 +235,3 @@ python app.py
 
 ⚠️ Notes
 - Dataset must be downloaded manually  
-- Model is generated after training  
-- Results depend on selected players  
